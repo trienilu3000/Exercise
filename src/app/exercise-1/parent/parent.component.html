@@ -1,1 +1,5 @@
-<app-children [students]="students"></app-children>
+<app-children [students]="students" [savedMessage]="savedMessage"></app-children>
+<div>
+    <input type="text" [(ngModel)]="message">
+    <button (click)="saveMessage()">Lưu</button> 
+</div>

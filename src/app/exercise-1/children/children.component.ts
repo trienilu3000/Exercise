@@ -10,5 +10,5 @@ import { GrandchildrenComponent } from '../grandchildren/grandchildren.component
 })
 export class ChildrenComponent {
   @Input() students: any[] = [];
-  
+  @Input() savedMessage: String = "";
 }
